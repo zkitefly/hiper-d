@@ -88,7 +88,7 @@ sudo hiper v
 
 ## 第三方可视化 Hiper 操作
 
-这些第三方为 Hiper 的操作更为简便，或者将 Hiper 的功能新手可使用他来初步了解。
+这些第三方让 Hiper 的操作更为简便，或者将 Hiper 的功能新手可使用他来初步了解。
 
 #### hiper启动程序（仅 Windows 下使用）
 
