@@ -24,15 +24,20 @@
 
 ## Hiper 准备工作
 
-以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](https://zkitefly.github.io/hiper-d/Hiper%20%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.html)
+以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](/Hiper%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.md)
 
 ### 下载
 下载两个文件：
 必须下载:
+
 [windows-tap](https://zkitefly.github.io/hiper-d/windows-tap.7z)
+
 Hiper 本体（按照你的计算机架构下载，**不知道下那个就下载 hiper-windows-amd64.exe**）：
+
 [hiper-windows-amd64.exe（Windows 平台 X86_64位 ，☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
+
 [hiper-windows-i386.exe（Windows 平台 X86_32位）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-i386.exe)
+
 [hiper-windows-arm64.exe（Windows 平台 AArch64（Arm64））](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-arm64.exe)
 
 **注意！下载完 Hiper 本体，请重命名为 `hiper`，接下来的教程程序名都会是他**
