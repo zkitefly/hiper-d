@@ -28,13 +28,14 @@
 
 ### 下载
 下载两个文件：
-必须下载:
+
+*必须下载:*
 
 [windows-tap](https://zkitefly.github.io/hiper-d/windows-tap.7z)
 
-Hiper 本体（按照你的计算机架构下载，**不知道下那个就下载 hiper-windows-amd64.exe**）：
+*Hiper 本体（按照你的计算机架构下载，**不知道下那个就下载 hiper-windows-amd64.exe**）：*
 
-[hiper-windows-amd64.exe（Windows 平台 X86_64位 ，☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
+[hiper-windows-amd64.exe（Windows 平台 X86_64位 ☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
 
 [hiper-windows-i386.exe（Windows 平台 X86_32位）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-i386.exe)
 
@@ -49,10 +50,6 @@ Windows 系统下需要选择 `FIRST_RUN_THIS_SCRIPT.bat` 右键选择 **以管�
 ![](/p/3.png)
 
 ![](/p/4.png)
-
-### 注意事项
-
-当你已经在在上方的 准备工作 中准备好了之后，将适合你平台的 hiper 程勋统一修改名字成 `hiper`，接下来的
 
 ## Hiper 功能介绍
 

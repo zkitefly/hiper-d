@@ -6,6 +6,8 @@
 
 非 Windows 下，无需安装虚拟网卡
 
+[在此处选择相应版本的 Hiper 下载](https://gitcode.net/to/hiper)
+
 以下是这些系统的相应 Hiper 执行文件：
 
 (带有“←”为该平台一般常用的 Hiper 执行程序)
@@ -69,3 +71,5 @@ X86_64，则使用 `hiper-linux-amd64`
 X86，则使用 `hiper-linux-i386`
 
 *其他的大致是可以对应 Hiper 名称上的架构名（因为我也不知道其他架构下会输出啥……）*
+
+[返回教程]()
