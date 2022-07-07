@@ -26,7 +26,6 @@
 
 以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](/Hiper准备工作.md)
 
-### 下载
 下载两个文件：
 
 *必须下载:*
@@ -42,8 +41,6 @@
 [hiper-windows-arm64.exe（Windows 平台 AArch64（Arm64））](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-arm64.exe)
 
 **注意！下载完 Hiper 本体，请重命名为 `hiper`，接下来的教程程序名都会是他**
-
-### Windows 平台下使用
 
 Windows 系统下需要选择 `FIRST_RUN_THIS_SCRIPT.bat` 右键选择 **以管理员身份运行**，安装 Hiper 所必须使用的虚拟网卡！（请勿重复运行，多次操作出现问题，[详细](bat运行过多.md)）
 
@@ -66,6 +63,8 @@ Vlan 功能和 Chat 功能
 ### Vlan 功能介绍
 
 Vlan 功能可以加入建立在覆盖网络上的虚拟专用网络，**该功能直白的说是通过将计算机的网络通过虚拟网卡加入至 Hiper 网络中，使其加入 Hiper 的其他用户可通过 Hiper 分配的 IP 互相访问计算机网络。**此功能可以用在游戏联机（Minecraft）、分享文件甚至是你计算机下的创建的网站。
+
+[使用 Hiper Vlan 功能与好友进行 Minecraft 联机](/playminecraft.md)
 
 ### Vlan 使用
 
@@ -98,7 +97,10 @@ sudo hiper v
 
 [点击此处下载（可能不是最新版本，可在更新日志中找到最新程序下载）](https://zkitefly.github.io/hiper-d/hiper%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F.zip)
 
-下载并解压，运行程序，
+下载并解压，运行程序，即可看到如下窗口：
+
+![](/p/9.png)
+
 
 
 
