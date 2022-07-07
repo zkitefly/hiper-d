@@ -22,150 +22,71 @@
 
 （
 
-## Hiper 使用
+## Hiper 准备工作
 
-### 终端命令
+以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](/Hiper%20%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.md)
 
-#### 下载
+### 下载
+下载两个文件：
+必须下载:
+[windows-tap](https://zkitefly.github.io/hiper-d/windows-tap.7z)
+Hiper 本体（按照你的计算机架构下载，**不知道下那个就下载 hiper-windows-amd64.exe**）：
+[hiper-windows-amd64.exe（Windows 平台 X86_64位 ，☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
+[hiper-windows-i386.exe（Windows 平台 X86_32位）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-i386.exe)
+[hiper-windows-arm64.exe（Windows 平台 AArch64（Arm64））](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-arm64.exe)
 
-在 Gitcode 仓库下载 Hiper 本体程序：
+**注意！下载完 Hiper 本体，请重命名为 `hiper`，接下来的教程程序名都会是他**
 
-[https://gitcode.net/to/hiper](https://gitcode.net/to/hiper)
+### Windows 平台下使用
 
-![](/p/2.png)
+Windows 系统下需要选择 `FIRST_RUN_THIS_SCRIPT.bat` 右键选择 **以管理员身份运行**，安装 Hiper 所必须使用的虚拟网卡！（请勿重复运行，多次操作出现问题，[详细](bat运行过多.md)）
 
-下载完后解压，你会看到如下文件：
-
-```
-[hiper-master]（文件夹）
-   \
-   [windows-tap]（文件夹）
-      \
-      FIRST_RUN_THIS_SCRIPT.bat
-      OemVista.inf
-      packages.sha1
-      tap0901.cat
-      tap0901.sys
-      tap_install.exe
-   hiper-darwin-amd64
-   hiper-darwin-arm64
-   hiper-freebsd-amd64
-   hiper-freebsd-arm7
-   hiper-freebsd-arm64
-   hiper-freebsd-i386
-   hiper-js.wasm
-   hiper-linux-amd64
-   hiper-linux-arm7
-   hiper-linux-arm64
-   hiper-linux-i386
-   hiper-linux-mips
-   hiper-linux-mips64
-   hiper-linux-mips64le
-   hiper-linux-mipsle
-   hiper-linux-ppc64
-   hiper-linux-ppc64le
-   hiper-openbsd-amd64
-   hiper-openbsd-arm7
-   hiper-openbsd-arm64
-   hiper-openbsd-i386
-   hiper-windows-amd64.exe
-   hiper-windows-arm64.exe
-   hiper-windows-i386.exe
-   packages.sha1
-```   
-
-**注意：如果在下方的教程中出现问题，请重新在此下载 Hiper！**
-#### Windows 平台下使用
-
-Windows 系统下需要选择 `FIRST_RUN_THIS_SCRIPT.bat` 右键选择 **以管理员身份运行**，安装 Hiper 所需的虚拟网卡！（请勿重复运行，多次操作出现问题，[详细](bat运行过多.md)）
-```
-[hiper-master]（文件夹）
-   \
-   [windows-tap]（文件夹）
-      \
-      FIRST_RUN_THIS_SCRIPT.bat   ←
-      OemVista.inf
-      packages.sha1
-      tap0901.cat
-      tap0901.sys
-      tap_install.exe
-
-……      
-```
 ![](/p/3.png)
 
 ![](/p/4.png)
 
-#### 非 Windows 平台下运行
+### 注意事项
 
-非 Windows 下，无需安装虚拟网卡，但需要超级用户权限
+当你已经在在上方的 准备工作 中准备好了之后，将适合你平台的 hiper 程勋统一修改名字成 `hiper`，接下来的
 
-以下是这些系统的相应 Hiper 执行文件：
+## Hiper 功能介绍
 
-(带有“←”为该平台一般常用的 Hiper 执行程序)
+Hiper 一共分为两大功能：
+
+Vlan 功能和 Chat 功能
+
+可用命令：
+   chat 通过覆盖网络聊天
+   vlan 加入建立在覆盖网络上的虚拟专用网络.
+   completion 为指定的shell生成自动完成脚本
+   help 关于任何命令的帮助
+
+### Vlan 功能介绍
+
+Vlan 功能可以加入建立在覆盖网络上的虚拟专用网络，**该功能直白的说是通过将计算机的网络通过虚拟网卡加入至 Hiper 网络中，使其加入 Hiper 的其他用户可通过 Hiper 分配的 IP 互相访问计算机网络。**此功能可以用在游戏联机（Minecraft）、分享文件甚至是你计算机下的创建的网站。
+
+### Vlan 使用
+
+使用命令使用 Vlan 功能：
 
 ```
-[Darwin（Mac OS）](https://cn.bing.com/search?q=Darwin+Mac+OS)
-   \
-   hiper-darwin-amd64   
-   hiper-darwin-arm64   ←
-[Freebsd](https://cn.bing.com/search?q=Freebsd)
-   \
-   hiper-freebsd-amd64   ←
-   hiper-freebsd-arm7
-   hiper-freebsd-arm64
-   hiper-freebsd-i386
-[WebAssembly](https://cn.bing.com/search?q=WebAssembly)
-   \
-   hiper-js.wasm   ←
-[Linux/Linux 发行版](https://cn.bing.com/search?q=Linux-发行版)
-   \
-   hiper-linux-amd64   ←
-   hiper-linux-arm7
-   hiper-linux-arm64
-   hiper-linux-i386
-   hiper-linux-mips  
-   hiper-linux-mips64
-   hiper-linux-mips64le
-   hiper-linux-mipsle
-   hiper-linux-ppc64
-   hiper-linux-ppc64le
-[OpenBSD](https://cn.bing.com/search?q=OpenBSD)
-   \
-   hiper-openbsd-amd64
-   hiper-openbsd-arm7
-   hiper-openbsd-arm64
+hiper v
 ```
-其中，这些对应的平台还有架构的相应适配，由于系统过多，本文章仅列举出几个平台架构查询方法，其他平台的架构查询请自行寻找方法，或[联系我]()
+可在该命令中加入后添加调节参数，如：
+```
+hiper v
+```
+**注意！非 Windows 平台需要Root权限，及输入以下命令：**
+```
+sudo hiper v
+```
 
-Darwin（Mac OS）：
-- 在左上角，点击Apple菜单>关于本机
-
-![](/p/5.png)
-
-- 在“概览”页中查看“芯片”或“处理器”
-
-![](/p/6.png)
-
-Intel处理器，则使用 `hiper-darwin-amd64`
-
-Apple-M系列处理器（如M1），则使用 `hiper-darwin-arm64`
-
-Linux/Linux 发行版：
-- 启动终端/命令行，输入命令 `uname -a` 并回车
-
-![](/p/7.png)
-
-- 在命令行结果中查看系统架构信息
-
-X86_64，则使用 `hiper-linux-amd64`
-
-X86，则使用 `hiper-linux-i386`
+[Vlan 调节参数介绍（一般用户请忽略）](/Vlan%20%E8%B0%83%E8%8A%82%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.md)
 
 
+## 第三方可视化 Hiper 操作
 
-
-### 第三方可视化操作 
+这些第三方为 Hiper 的操作更为简便，或者将 Hiper 的功能新手可使用他来初步了解。
 
 #### hiper启动程序（仅 Windows 下使用）
 
@@ -173,7 +94,9 @@ X86，则使用 `hiper-linux-i386`
 
 可在上方链接中找到本程序的更新日志
 
-[点击此处下载（可能不是最新版本，可在更新日志中找到最新程序下载）](/hiper%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F.zip)
+[点击此处下载（可能不是最新版本，可在更新日志中找到最新程序下载）](https://zkitefly.github.io/hiper-d/hiper%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F.zip)
+
+下载并解压，运行程序，
 
 
 
