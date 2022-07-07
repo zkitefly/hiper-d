@@ -24,7 +24,7 @@
 
 ## Hiper 准备工作
 
-以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](/Hiper%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.md)
+以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](/Hiper准备工作.md)
 
 ### 下载
 下载两个文件：
@@ -83,7 +83,7 @@ hiper v
 sudo hiper v
 ```
 
-[Vlan 调节参数介绍（一般用户请忽略）](/Vlan%20%E8%B0%83%E8%8A%82%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.md)
+[Vlan 调节参数介绍（一般用户请忽略）](/Vlan 调节参数介绍.md)
 
 
 ## 第三方可视化 Hiper 操作
