@@ -32,7 +32,7 @@
 
 [windows-tap](https://zkitefly.github.io/hiper-d/windows-tap.7z)
 
-*Hiper 本体（按照你的计算机架构下载，**不知道下那个就下载 hiper-windows-amd64.exe**）：*
+*Hiper 本体（按照你的计算机架构下载，**不知道下哪个就下载 hiper-windows-amd64.exe**）：*
 
 [hiper-windows-amd64.exe（Windows 平台 X86_64位 ☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
 
@@ -64,8 +64,11 @@ Vlan 功能和 Chat 功能
 
 可用命令：
    chat 通过覆盖网络聊天
+   
    vlan 加入建立在覆盖网络上的虚拟专用网络.
+   
    completion 为指定的shell生成自动完成脚本
+   
    help 关于任何命令的帮助
 
 ### Vlan 功能介绍
@@ -127,6 +130,12 @@ sudo hiper v
 ### Chat 使用
 
 输入命令使用 Chat 功能
+
+施工中……
+
+### Completion 生成自动化脚本
+
+施工中……
 
 ## 第三方可视化 Hiper 操作
 
