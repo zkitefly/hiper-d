@@ -112,7 +112,7 @@
 
 简单联机 Server.Properties for LAN：
 
-<iframe height=888 width=540 src="https://zkitefly.github.io/hiper-d/p/25.mp4">
+<iframe height=888 width=540 src="https://gitcode.net/chearlai/f/-/raw/master/v/25.mp4">
 
 ### 已经完成了连接，但是游戏里进服进不了怎么办？
 
