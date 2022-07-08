@@ -100,7 +100,7 @@
 
 1、让加入方使用非离线账户，及正版账户或者外置登录账户
 
-2、让让创建方安装 [自定义局域网联机(Lan Server Properties， 1.12-最新)](https://www.mcmod.cn/class/1158.html) 或 [简单联机(Server.Properties for LAN， 1.7.2-1.12.2)](https://www.mcmod.cn/class/2754.html)模组（加入者无需安装）
+2、让让创建方安装 [自定义局域网联机(Lan Server Properties， 1.12-最新)](https://www.mcmod.cn/class/2754.html) 或 [简单联机(Server.Properties for LAN， 1.7.2-1.12.2)](https://www.mcmod.cn/class/1158.html)模组（加入者无需安装）
 
 ![](/p/23.png)
 
