@@ -114,6 +114,8 @@
 
 <iframe height=540 width=888 src="https://zkitefly.github.io/hiper-d/p/25.mp4">
 
+*(true为开启，false为关闭，在视频中我输入错了)*
+
 ### 已经完成了连接，但是游戏里进服进不了怎么办？
 
 你需要根据游戏给出的提示信息判断：
