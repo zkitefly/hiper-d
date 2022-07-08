@@ -127,8 +127,10 @@
 
 简单联机 Server.Properties for LAN：
 
+*(true为开启，false为关闭，在视频中我输入错了)*
+
 <iframe height=540 width=888 src="https://zkitefly.github.io/hiper-d/p/25.mp4">
 
-*(true为开启，false为关闭，在视频中我输入错了)*
+
 
 
