@@ -147,7 +147,7 @@ sudo hiper v
 
 可在上方链接中找到本程序的更新日志
 
-[点击此处下载（可能不是最新版本，可在更新日志中找到最新程序下载）](https://zkitefly.github.io/hiper-d/hiper%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F.zip)
+[点击此处下载](https://mcer.cn/circle/491.html)
 
 下载并解压，运行程序，即可看到如下窗口：
 
