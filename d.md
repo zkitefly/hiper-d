@@ -30,7 +30,17 @@
 
 *必须下载:*
 
-[windows-tap](https://zkitefly.github.io/hiper-d/windows-tap.7z)
+[windows-tap](https://gitcode.net/chearlai/f/-/raw/master/d/tap-windows-9.21.2.exe)
+
+该程序为安装 Hiper 安装所需的虚拟网卡
+
+请勿在安装时修改 Destination Folder，即安装目标文件夹！
+
+请放心安装，本程序仅266 KB (272,409字节)
+
+如果你安装过了，请勿再次安装！
+
+若想卸载，请运行该卸载程序：C:\Program Files\TAP-Windows\Uninstall.exe
 
 *Hiper 本体（按照你的计算机架构下载，**不知道下哪个就下载 hiper-windows-amd64.exe**）：*
 
@@ -41,16 +51,6 @@
 [hiper-windows-arm64.exe（Windows 平台 AArch64（Arm64））](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-arm64.exe)
 
 **注意！下载完 Hiper 本体，请重命名为 `hiper`，接下来的教程程序名都会是他**
-
-Windows 系统下需要选择 `FIRST_RUN_THIS_SCRIPT.bat` 右键选择 **以管理员身份运行**，安装 Hiper 所必须使用的虚拟网卡！
-
-（请勿重复运行，多次操作出现问题，[详细](bat运行过多.md)）
-
-![](https://gitcode.net/chearlai/ff/-/raw/main/3.png)
-
-![](https://gitcode.net/chearlai/ff/-/raw/main/4.png)
-
-出现 `Drivers installed successfully.` 代表安装成功
 
 *小技巧：打开 Hiper 所在目录，并在文件资源管理器的导航栏中点击一下空白处显示输入框，然后输入 `cmd` 并回车，即可在 Hiper 所在目录打开 CMD。*
 
