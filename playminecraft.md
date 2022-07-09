@@ -8,7 +8,11 @@
 
 ## 简单版
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1tr4y1E7pq&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
+<video width="888" height="540" controls>
+  <source src="
+https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/44/12/768631244/768631244-1-208.mp4?e=ig8euxZM2rNcNbNghwdVhwdlhbNVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1657397649&gen=playurlv2&os=cosbv&oi=837395164&trid=ec817f6f0b5d485299457a71f3feab54T&mid=0&platform=html5&upsig=30b2a4b0c44031eb2225bc9baca008f2&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&bvc=vod&nettype=0&bw=220018&orderid=0,1&logo=80000000"  type="video/mp4">
+  您的浏览器不支持 HTML5 video 标签。
+</video>
 
 简单版用到了作者：[梦游泪世](https://mcer.cn/circle/491.html) 的 hiper启动程序
 
