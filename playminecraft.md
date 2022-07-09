@@ -4,7 +4,7 @@
 
 本教程的 Minecraft （我的世界）为 Java版本的客户端，并非服务端（及客户端为用户使用的Java版本，你日常使用的）
 
-注意，由于 Github 在国内访问速度慢，有些图片会加载不出来，建议
+注意，由于 Github 在国内访问速度慢，有些图片会加载不出来，稍等片刻
 
 ## 简单版
 
@@ -16,7 +16,7 @@
 
 下载并解压，运行程序，即可看到如下窗口：
 
-![](/p/9.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/9.png)
 
 ↓以下是 创建方 和 加入方 各自要操作的东西↓
 
@@ -30,11 +30,11 @@
 
 *（成功后请勿重复输入 `1` 回车，多次操作出现问题，[详细](bat运行过多.md)）*
 
-![](/p/10.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/10.png)
 
 #### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他！
 
-![](/p/18.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/18.png)
 
 ————————————————————
 
@@ -42,9 +42,9 @@
 
 键入 `3` 为非凭证加入，属于免费版，免费版会在启动后**随机**分配可用的IP（如一次启动时1.1.10.1，那么下次启动该就是1.2.1.1，每次随机分配），
 
-以及在运行后 30 分钟断连，此时 Hiper启动程序会自动重启 HIPer（创建方断连，需要将重新将IP重新发送给加入方，加入方断连则需重新进入创建方所发给你的 IP）
+以及在运行后 30 分钟断连，此时 Hiper启动程序会自动重启 HIPer（创建方断连，需要将重新将IP重新发送给加入方，让他加入这个 IP）
 
-或者使用凭证，使用凭证不会有上述问题，免费版的用户也可以访问你（加入放断连只需重新键入 `3` 即可，创建方因使用凭证启动，创建方的 HIper IP是不变的）
+或者使用凭证，使用凭证不会有上述问题，免费版的用户也可以访问你（创建方因使用凭证启动，创建方的 HIper IP是不变的）
 
 #### 使用凭证：
 
@@ -56,7 +56,7 @@
 
 然后使用任意启动器启动 Minecraft （我的世界） Java版
 
-![](/p/19.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/19.png)
 
 然后进入你的单人存档，按键盘上的 `Esc退出键` 打开游戏菜单，
 
@@ -64,7 +64,7 @@
 
 操作视频：
 
-![](/p/20.gif)
+![](https://gitcode.net/chearlai/ff/-/raw/main/20.gif)
 
 #### 只需要将 [Hiper 给你分配的 IP](#输入-3-回车即可启动-vlan-功能其中-set-interface-ip-address-7之间的ip就是用来使加入-hiper-的用户例如图中的是-6294183) 和 游戏开放端口 组合成 IP:XXXX （如下方组合），
 
@@ -72,7 +72,7 @@
 
 操作视频：
 
-![](/p/22.gif)
+![](https://gitcode.net/chearlai/ff/-/raw/main/22.gif)
 
 ### 加入方视角
 
@@ -84,7 +84,7 @@
 
 *（成功后请勿重复输入“1”回车，多次操作出现问题，[详细](bat运行过多.md)）*
 
-![](/p/10.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/10.png)
 
 ————————————————————
 
@@ -94,7 +94,7 @@
 
 以及在运行后 30 分钟断连，此时 Hiper启动程序会自动重启 HIPer（创建方断连，需要将重新将IP重新发送给加入方，加入方断连则需重新进入创建方所发给你的 IP）
 
-或者使用凭证，使用凭证不会有上述问题，免费版的用户也可以访问你（加入放断连只需重新键入 `3` 即可，创建方因使用凭证启动，创建方的 HIper IP是不变的）
+或者使用凭证，使用凭证不会有上述问题，免费版的用户也可以访问你（加入方断连只需重新加入创建方提供的IP）
 
 #### 使用凭证：
 
@@ -108,13 +108,13 @@
 
 点击 `多人游戏` > `直接连接`
 
-将创建方发给你的 IP 输入并加入[加入方会发给你这样的IP](#只需要将-hiper-给你分配的-ip输入-3-回车即可启动-vlan-功能其中-set-interface-ip-address-7之间的ip就是用来使加入-hiper-的用户例如图中的是-6294183-和-游戏开放端口-组合成-ipxxxx-如下方组合)
+将[创建方发给你的IP](#只需要将-hiper-给你分配的-ip输入-3-回车即可启动-vlan-功能其中-set-interface-ip-address-7之间的ip就是用来使加入-hiper-的用户例如图中的是-6294183-和-游戏开放端口-组合成-ipxxxx-如下方组合) 输入并加入
 
 （若加入出现问题，请逐个查看[常见问题](#一些常见问题)）
 
 至此，你已经成功的使用 简单版 的方式使用了 Hiper-Vlan 功能与好友一起游玩 Minecraft （我的世界）了！
 
-![](/p/26.gif)
+![](https://gitcode.net/chearlai/ff/-/raw/main/26.gif)
 
 ## 命令行版
 
@@ -153,13 +153,13 @@
 
 2、让让创建方安装 [自定义局域网联机(Lan Server Properties， 1.12-最新)](https://www.mcmod.cn/class/2754.html) 或 [简单联机(Server.Properties for LAN， 1.7.2-1.12.2)](https://www.mcmod.cn/class/1158.html)模组（加入者无需安装）
 
-![](/p/23.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/23.png)
 
 按照如下图或视频的操作方法关闭正版认证：
 
 自定义局域网联机 Lan Server Properties：
 
-![](/p/24.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/24.png)
 
 简单联机 Server.Properties for LAN：
 

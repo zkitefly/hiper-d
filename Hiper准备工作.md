@@ -49,11 +49,11 @@ OpenBSD
 Darwin（Mac OS）：
 - 在左上角，点击Apple菜单>关于本机
 
-![](/p/5.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/5.png)
 
 - 在“概览”页中查看“芯片”或“处理器”
 
-![](/p/6.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/6.png)
 
 Intel处理器，则使用 `hiper-darwin-amd64`
 
@@ -62,7 +62,7 @@ Apple-M系列处理器（如M1），则使用 `hiper-darwin-arm64`
 Linux/Linux 发行版：
 - 启动终端/命令行，输入命令 `arch` 并回车
 
-![](/p/7.png)
+![](https://gitcode.net/chearlai/ff/-/raw/main/7.png)
 
 - 在命令行结果中查看系统架构信息
 
