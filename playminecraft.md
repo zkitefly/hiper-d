@@ -166,7 +166,7 @@
 *(true为开启，false为关闭，在视频中我输入错了)*
 
 <video width="888" height="540" controls>
-  <source src="https://raw.githubusercontents.com/zkitefly/hiper-d/main/p/25.mp4"  type="video/mp4">
+  <source src="https://raw.staticdn.net/zkitefly/hiper-d/main/p/25.mp4"  type="video/mp4">
   <source src="movie.ogg"  type="video/ogg">
   您的浏览器不支持 HTML5 video 标签。
 </video>
