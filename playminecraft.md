@@ -8,7 +8,7 @@
 
 ## 简单版
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1tr4y1E7pq&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1tr4y1E7pq&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
 
 简单版用到了作者：[梦游泪世](https://mcer.cn/circle/491.html) 的 hiper启动程序
 
