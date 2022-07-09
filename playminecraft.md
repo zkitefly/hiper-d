@@ -165,7 +165,7 @@
 
 *(true为开启，false为关闭，在视频中我输入错了)*
 
-<iframe height=540 width=888 src="https://zkitefly.github.io/hiper-d/p/25.mp4">
+<iframe height=540 width=888 src="https://raw.githubusercontent.com/zkitefly/hiper-d/main/p/25.mp4">
 
 
 
