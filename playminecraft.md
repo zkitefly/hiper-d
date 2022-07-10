@@ -20,7 +20,7 @@
 
 ↓以下是 创建方 和 加入方 各自要操作的东西↓
 
-<iframe src="//player.bilibili.com/player.html?aid=258369837&bvid=BV1sa411Q7Ar&cid=768847377&page=1" scrolling="yes" border="1" frameborder="yes" framespacing="1" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=258369837&bvid=BV1sa411Q7Ar&cid=768847377&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
 
 ### 创建方操作视角
 
