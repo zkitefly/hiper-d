@@ -8,7 +8,7 @@
 
 ## 简单版
 
-简单版用到了作者：[梦游泪世](https://mcer.cn/circle/491.html) 的 hiper启动程序
+简单版用到了作者：[梦游泪世](https://mcer.cn/circle-people?id=6) 的 hiper启动程序
 
 可在上方链接中找到本程序的更新日志
 
