@@ -28,10 +28,6 @@
 
 第一次使用输入 `1` ，安装虚拟网卡，成功后就不用再输入了
 
-当弹出的如图弹窗显示 `Drivers installed successfully. `则代表安装成功！
-
-*（成功后请勿重复输入 `1` 回车，多次操作出现问题，[详细](bat运行过多.md)）*
-
 ![](https://gitcode.net/chearlai/ff/-/raw/main/10.png)
 
 #### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他！
@@ -81,10 +77,6 @@
 [首先点击此处下载程序](https://mcer.cn/circle/491.html)
 
 第一次使用输入 1 ，安装虚拟网卡，成功后就不用再输入了
-
-当弹出的如图弹窗显示 `Drivers installed successfully. `则代表安装成功！
-
-*（成功后请勿重复输入“1”回车，多次操作出现问题，[详细](bat运行过多.md)）*
 
 ![](https://gitcode.net/chearlai/ff/-/raw/main/10.png)
 
