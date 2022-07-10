@@ -20,11 +20,7 @@
 
 ↓以下是 创建方 和 加入方 各自要操作的东西↓
 
-<video width="888" height="540" controls>
-  <source src="
-https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/44/12/768631244/768631244-1-208.mp4?e=ig8euxZM2rNcNbNghwdVhwdlhbNVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1657397649&gen=playurlv2&os=cosbv&oi=837395164&trid=ec817f6f0b5d485299457a71f3feab54T&mid=0&platform=html5&upsig=30b2a4b0c44031eb2225bc9baca008f2&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&bvc=vod&nettype=0&bw=220018&orderid=0,1&logo=80000000"  type="video/mp4">
-  您的浏览器不支持 HTML5 video 标签。
-</video>
+<iframe src="//player.bilibili.com/player.html?aid=258369837&bvid=BV1sa411Q7Ar&cid=768847377&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ### 创建方操作视角
 
