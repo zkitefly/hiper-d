@@ -4,7 +4,7 @@
 
 本教程的 Minecraft （我的世界）为 Java版本的客户端，并非服务端（及客户端为用户使用的Java版本，你日常使用的）
 
-注意，由于 Github 在国内访问速度慢，有些图片会加载不出来，稍等片刻
+注意，由于 Github 在国内访问速度慢，请稍等片刻……
 
 ## 简单版
 
@@ -20,7 +20,7 @@
 
 ↓以下是 创建方 和 加入方 各自要操作的东西↓
 
-<iframe src="//player.bilibili.com/player.html?aid=258369837&bvid=BV1sa411Q7Ar&cid=768847377&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=258369837&bvid=BV1sa411Q7Ar&cid=768847377&page=1" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ### 创建方操作视角
 
