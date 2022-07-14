@@ -1,6 +1,6 @@
 # Hiper 准备工作
 
-### 非 Windows 平台下运行
+### 非 Windows 平台
 
 非 Windows 下，无需安装虚拟网卡
 
