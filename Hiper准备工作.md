@@ -2,55 +2,9 @@
 
 ### 非 Windows 平台
 
-非 Windows 下，无需安装虚拟网卡
-
-[在此处选择相应版本的 Hiper 下载](https://gitcode.net/to/hiper)
-
-**如果你是 Linux/Linux 发行版（如 Deepin UOS Arch-Linux Ubuntu），且实在是不知道该用那个，一般情况下请使用** `hiper-linux-amd64` 
-
-**如果你是 Mac OS 平台，**[**请查看此处**](#darwinmac-os)
-
-#### Linux/Linux 发行版：
-- 启动终端/命令行，输入命令 `arch` 并回车
-
-![](https://gitcode.net/chearlai/ff/-/raw/main/7.png)
-
-- 在命令行结果中查看系统架构信息
-
-X86_64，则使用 `hiper-linux-amd64`
-
-X86，则使用 `hiper-linux-i386`
-
-*其他的大致是可以[对应 Hiper 名称](#以下其他平台的相应-hiper-执行文件)上的架构名（因为我也不知道其他架构下会输出啥……）*
-
-以下是 Linux 发行版**一般情况下**的文件：
-
-Deepin：hiper-linux-amd64
-
-UOS 家庭版：hiper-linux-amd64
-
-Ubuntu：hiper-linux-amd64
-
-Arch Linux：hiper-linux-amd64
-
-#### Darwin（Mac OS）：
-- 在左上角，点击Apple菜单>关于本机
-
-![](https://gitcode.net/chearlai/ff/-/raw/main/5.png)
-
-- 在“概览”页中查看“芯片”或“处理器”
-
-![](https://gitcode.net/chearlai/ff/-/raw/main/6.png)
-
-Intel处理器，则使用 `hiper-darwin-amd64`
-
-Apple-M系列处理器（如M1），则使用 `hiper-darwin-arm64`
-
-<details>
-<summary>以下其他平台的相应 Hiper 执行文件：</summary>
-<pre><code>
-
 ### 以下其他平台的相应 Hiper 执行文件：
+
+[**下载链接**](https://gitcode.net/to/hiper)
 
 (带有“←”为该平台一般常用的 Hiper 执行程序)
 
