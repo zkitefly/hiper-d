@@ -2,7 +2,7 @@
 
 #小声比比
 
-本文章并不是很完美，可能会因为更新换代而更不上更新脚步，所以希望看到这的同学，若你对 Hiper 分厂了解，或发现了问题，欢迎在 Github 上提交 [Issues](https://github.com/zkitefly/hiper-d/issues) 和 [Pull requests](https://github.com/zkitefly/hiper-d/pulls)
+本文章并不是很完美，可能会因为更新换代而更不上更新脚步，所以希望看到这的同学，若发现了问题，欢迎在 Github 上提交 [Issues](https://github.com/zkitefly/hiper-d/issues) 和 [Pull requests](https://github.com/zkitefly/hiper-d/pulls)
 
 **本教程分 简单版 和 命令行版。**
 
