@@ -1,6 +1,6 @@
 # 使用 Hiper-Vlan 功能与好友一起游玩 Minecraft （我的世界）Java 版
 
-支持短链接：[http://8r5.cn/E6Zh1](http://8r5.cn/E6Zh1)
+支持短链接：[http://8r5.cn/V7ZGd](http://8r5.cn/V7ZGd)
 
 ## 小声比比
 
