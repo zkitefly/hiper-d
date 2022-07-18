@@ -4,4 +4,8 @@
 
 [开始阅读](d.md)
 
-支持短链接：http://8r5.cn/E6Zh1
+支持短链接：
+
+http://8r5.cn/E6Zh1
+
+http://8r5.cn/E6Zh1
