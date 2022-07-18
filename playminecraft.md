@@ -16,7 +16,7 @@
 
 简单版用到了作者：[梦游泪世](https://mcer.cn/circle-people?id=6) 的 hiper启动程序
 
-![](/p/33.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/33.png)
 
 可在上方链接中找到本程序的更新日志
 
@@ -36,7 +36,7 @@
 
 第一次使用输入 `1` 并回车，安装虚拟网卡，成功后就不用再输入了
 
-![](/p/32.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/32.png)
 
 #### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他！
 
@@ -87,7 +87,7 @@
 
 第一次使用输入 1 ，安装虚拟网卡，成功后就不用再输入了
 
-![](/p/33.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/33.png)
 
 <details>
 <summary>须知（如果看不懂，可以慢慢看或跳过暂时这一步骤，稍后再看）：</summary>
@@ -151,7 +151,7 @@
 
 以“无效会话”开头的中文提示:你的登录方式有误，请查阅下方关于[登录方式](#联机对正版离线等登录方式有要求吗)的条目。
 
-![](/p/26.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/26.png)
 
 ↑上图如果你在游玩时出现，则创建方中途关闭了游戏↑
 

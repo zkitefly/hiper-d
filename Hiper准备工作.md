@@ -6,7 +6,7 @@
 
 [**下载链接**](https://gitcode.net/to/hiper)
 
-![](/p/28.gif)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/28.gif)
 
 因为 Hiper 适配了很多平台，所以需要使用相应的文件
 
