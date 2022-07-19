@@ -186,6 +186,6 @@
 *(true为开启，false为关闭，在视频中我输入错了QAQ)*
 
 <video width="888" height="540" controls>
-  <source src="https://gitcode.net/chearlai/ff/-/raw/main/25.mp4"  type="video/mp4">
+  <source src="https://gitcode.net/chearlai/hiper-j/-/raw/main/p/25.mp4"  type="video/mp4">
   您的浏览器不支持 HTML5 video 标签。请更新你的浏览器！
 </video>
