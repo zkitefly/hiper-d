@@ -1,6 +1,6 @@
 # Hiper
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/1.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/1.png)
 
 ## 提示
 
@@ -54,7 +54,7 @@
 
 *小技巧：打开 Hiper 所在目录，并在文件资源管理器的导航栏中点击一下空白处显示输入框，然后输入 `cmd` 并回车，即可在 Hiper 所在目录打开 CMD。*
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/12.gif)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/12.gif)
 
 ## Hiper 功能介绍
 
@@ -89,7 +89,7 @@ hiper lan
 hiper vlan
 ```
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/13.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/13.png)
 
 可在该命令中加入后添加调节参数，如：
 
@@ -105,7 +105,7 @@ hiper v -h
 
 以及在运行后 30 分钟断连，断连后 CMD/终端 中会显示如图信息，此时你可以键入命令重新加入，
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/11.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/11.png)
 
 或者使用凭证，使用凭证不会有上述问题，默认启动的用户也可以访问你
 
@@ -151,7 +151,7 @@ sudo hiper v
 
 下载并解压，运行程序，即可看到如下窗口：
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/9.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/9.png)
 
 第一次使用需要输入 `1` 回车，安装虚拟网卡
 
@@ -159,7 +159,7 @@ sudo hiper v
 
 *（成功后请勿重复输入“1”回车，多次操作出现问题，[详细](bat运行过多.md)）*
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/10.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/10.png)
 
  然后你就可以使用该程序的功能了
 

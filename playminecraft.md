@@ -40,7 +40,7 @@
 
 #### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/18.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/18.png)
 
 <details>
 <summary>须知（如果看不懂，可以慢慢看或跳过暂时这一步骤，稍后再看）：</summary>
@@ -61,7 +61,7 @@
 
 然后使用任意启动器启动 Minecraft （我的世界） Java版
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/19.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/19.png)
 
 然后进入你的单人存档，按键盘上的 `Esc退出键` 打开游戏菜单，
 
@@ -69,7 +69,7 @@
 
 操作视频：
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/20.gif)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/20.gif)
 
 #### 只需要将 [Hiper 给你分配的 IP](#然后输入-3-回车即可启动其中-set-interface-ip-address和7之间的ip就是用来使加入-hiper-的用户例如图中的是-6294183-下面会用到他) 和 游戏开放端口 组合成 IP:XXXX
 
@@ -77,7 +77,7 @@
 
 操作视频：
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/22.gif)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/22.gif)
 
 ### 加入方视角操作视角
 
@@ -117,7 +117,7 @@
 
 至此，你已经成功的使用 简单版 的方式使用了 Hiper-Vlan 功能与好友一起游玩 Minecraft （我的世界）了！
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/26.gif)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/26.gif)
 
 ## 命令行版（非 Windows 平台使用）
 
@@ -173,13 +173,13 @@
 
 2、让让创建方安装 [自定义局域网联机(Lan Server Properties， 1.12-最新)](https://www.mcmod.cn/class/2754.html) 或 [简单联机(Server.Properties for LAN， 1.7.2-1.12.2)](https://www.mcmod.cn/class/1158.html)模组（加入者无需安装）
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/23.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/23.png)
 
 按照如下图或视频的操作方法关闭正版认证：
 
 自定义局域网联机 Lan Server Properties：
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/24.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/24.png)
 
 简单联机 Server.Properties for LAN：
 

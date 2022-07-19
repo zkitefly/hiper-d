@@ -1,6 +1,6 @@
 如果安装虚拟显卡过多，会造成如下图问题
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/14.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/14.png)
 
 目前尚未有人报告虚拟网卡过多的问题
 
@@ -8,7 +8,7 @@
 
 首先在任务栏上的搜索框中，输入 `设备管理器`，然后选择“设备管理器”。
 
-![](https://gitcode.net/chearlai/ff/-/raw/main/16.png)
+![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/16.png)
 
 展开“网络适配器”，就可以看到这些 `TAP-Windows Adapter V9` 为 Hiper 虚拟网卡，
 
