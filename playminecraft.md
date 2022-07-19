@@ -2,7 +2,7 @@
 
 支持短链接：[http://8r5.cn/V7ZGd](http://8r5.cn/V7ZGd)
 
-## 小声比比
+## 小声逼逼
 
 本文章并不是很完美，可能会因为更新换代而更不上更新脚步，所以希望看到这的同学，若发现了问题，欢迎在 Github 上提交 [Issues](https://github.com/zkitefly/hiper-d/issues) 和 [Pull requests](https://github.com/zkitefly/hiper-d/pulls)
 
@@ -24,9 +24,9 @@
 
 下载并解压，运行程序，即可看到如下窗口：
 
-↓以下是 创建方 和 加入方 各自要操作的东西↓
-
 <iframe src="//player.bilibili.com/player.html?aid=258369837&bvid=BV1sa411Q7Ar&cid=768847377&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
+
+**↓以下是 创建方 和 加入方 各自要操作的东西↓**
 
 ### 创建方操作视角
 
@@ -38,7 +38,7 @@
 
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/32.png)
 
-#### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他！
+#### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他
 
 ![](https://gitcode.net/chearlai/ff/-/raw/main/18.png)
 
@@ -49,7 +49,7 @@
 
 或者使用凭证，使用凭证不会有上述问题，免费版的用户也可以访问你
 
-#### 使用凭证：
+#### 使用凭证
 
 输入 2 回车，粘贴凭证密钥回车，即可带凭证启动 Vlan
 
@@ -71,7 +71,7 @@
 
 ![](https://gitcode.net/chearlai/ff/-/raw/main/20.gif)
 
-#### 只需要将 [Hiper 给你分配的 IP](#然后输入-3-回车即可启动其中-set-interface-ip-address和7之间的ip就是用来使加入-hiper-的用户例如图中的是-6294183-下面会用到他) 和 游戏开放端口 组合成 IP:XXXX ，
+#### 只需要将 [Hiper 给你分配的 IP](#然后输入-3-回车即可启动其中-set-interface-ip-address和7之间的ip就是用来使加入-hiper-的用户例如图中的是-6294183-下面会用到他) 和 游戏开放端口 组合成 IP:XXXX
 
 **并发送给你的加入方**，至此创建方的工作就告一段落了！
 
@@ -97,7 +97,7 @@
 
 或者使用凭证，使用凭证不会有上述问题，免费版的用户也可以访问你
 
-#### 使用凭证：
+#### 使用凭证
 
 输入 2 回车，粘贴凭证密钥回车，即可带凭证启动 Vlan
 
@@ -189,6 +189,3 @@
   <source src="https://gitcode.net/chearlai/ff/-/raw/main/25.mp4"  type="video/mp4">
   您的浏览器不支持 HTML5 video 标签。请更新你的浏览器！
 </video>
-
-
-
