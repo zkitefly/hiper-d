@@ -143,9 +143,9 @@
 
 - 使用命令行版
 
-创建方断连：需要重新[键入命令](/命令行版#%E8%BE%93%E5%85%A5%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%E5%90%AF%E5%8A%A8-hiper) `sudo ./hiper v` 启动Hiper，并将IP重新发给他，加入方用这个IP加入房间
+创建方断连：需要重新[键入命令](/命令行版.md#%E8%BE%93%E5%85%A5%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%E5%90%AF%E5%8A%A8-hiper) `sudo ./hiper v` 启动Hiper，并将IP重新发给他，加入方用这个IP加入房间
 
-加入方断连：需要重新[键入命令] `sudo ./hiper v` 启动Hiper，然后重新进入房间即可
+加入方断连：需要重新[键入命令](/命令行版.md#%E8%BE%93%E5%85%A5%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%E5%90%AF%E5%8A%A8-hiper-1) `sudo ./hiper v` 启动Hiper，然后重新进入房间即可
 
 以下是可能游戏给出的提示信息：
 
