@@ -4,6 +4,8 @@
 
 ## 提示
 
+**本文章的某些内容过时，正在更新！**
+
 - 本文章由 Zkitefly 制作，若要搬运，请在 [Discussions](https://github.com/zkitefly/hiper-d/discussions) 反馈并获得授权！
 
 - 若对本文章有任何问题或疑惑，可以在以下联系方式找到我
