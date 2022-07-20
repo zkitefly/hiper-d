@@ -30,7 +30,7 @@
 
 下载两个文件：
 
-*必须下载:*
+*一个是必须下载:*
 
 [windows-tap](https://gitcode.net/chearlai/f/-/raw/master/d/tap-windows-9.21.2.exe)
 
@@ -44,7 +44,7 @@
 
 若想卸载，请运行该卸载程序：C:\Program Files\TAP-Windows\Uninstall.exe
 
-*Hiper 本体（按照你的计算机架构下载，**不知道下哪个就下载 hiper-windows-amd64.exe**）：*
+*一个是 Hiper 本体（按照你的计算机架构下载，**不知道下哪个就下载 hiper-windows-amd64.exe**）：*
 
 [hiper-windows-amd64.exe（Windows 平台 X86_64位 ☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
 
