@@ -10,6 +10,8 @@
 
 本教程的 Minecraft （我的世界）为 Java版本的客户端，并非服务端（及客户端为用户使用的Java版本，你日常使用的）
 
+如果你是启动器作者，要适配 Hiper ，[请前往此处](/d.md)
+
 注意，由于 Github 在国内访问速度慢，请稍等片刻……
 
 ## 简单版（Windows 平台使用）
@@ -38,8 +40,9 @@
 
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/32.png)
 
-#### 然后输入 `3` 回车即可启动，其中 `Set interface IP Address:`和`\7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他
+#### 然后输入 `3` 回车即可启动，其中 `{"level":"info","cidr":"`和`/7`之间的IP就是用来使加入 Hiper 的用户，例如图中的是 `6.2.94.183` ，下面会用到他
 
+//此图需要更新，请不要看此图
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/18.png)
 
 <details>
@@ -80,6 +83,7 @@
 
 操作视频：
 
+//此图需要更新，请不要看此图
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/22.gif)
 
 ### 加入方视角操作视角

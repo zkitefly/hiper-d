@@ -48,6 +48,14 @@ OpenBSD
 </code></pre>
 </details>
 
+**Darwin（Mac OS）注意事项：你需要下载完Hiper本体的同时，也需要安装虚拟网卡，在终端 App 中输入命令进行安装 `brew install --cask tunnelblick`**
+
 **注意！下载完 Hiper 本体，请重命名为 hiper，接下来的教程程序名都会是他**
+
+给启动器作者小提示：
+
+- 这个是 Hiper 本体的 sha1 列表，可以用于检查更新 Hiper `https://gitcode.net/to/hiper/-/raw/master/packages.sha1`
+
+- https://gitcode.net/to/hiper/-/raw/master/ + <Hiper 本体名称> ，可通过上述列表获取名称，例如 `https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe`
 
 [**返回教程**](/d.md)

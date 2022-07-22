@@ -26,25 +26,21 @@
 
 ## Hiper 准备工作
 
-以下列举的是 Windows 平台的准备工作，非 Windows 平台请[访问此](/Hiper准备工作.md)
+**以下列举的是 Windows 平台的准备工作，非 Windows 平台（如 Linux 发行版、Macos）请**[**访问此**](/Hiper准备工作.md)
 
-下载两个文件：
+需要下载两个文件：
 
-*一个是必须下载:*
+- *一个是必须下载:*
 
 [windows-tap](https://gitcode.net/chearlai/f/-/raw/master/d/tap-windows-9.21.2.exe)
 
-该程序为安装 Hiper 安装所需的虚拟网卡
-
-请勿在安装时修改 Destination Folder，即安装目标文件夹！
+`windows-tap` 该程序为安装 Hiper 安装所需的虚拟网卡
 
 请放心安装，本程序仅266 KB (272,409字节)
 
-如果你安装过了，请勿再次安装！
+若想卸载，请运行安装时的安装目录中的 `Uninstall.exe` 卸载程序，默认卸载程序路径：C:\Program Files\TAP-Windows\Uninstall.exe
 
-若想卸载，请运行该卸载程序：C:\Program Files\TAP-Windows\Uninstall.exe
-
-*一个是 Hiper 本体（按照你的计算机架构下载，**不知道下哪个就下载 hiper-windows-amd64.exe**）：*
+- *一个是 Hiper 本体（按照你的计算机架构下载，**不知道下哪个就下载 hiper-windows-amd64.exe**）：*
 
 [hiper-windows-amd64.exe（Windows 平台 X86_64位 ☆一般选择此下载☆）](https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe)
 
@@ -54,17 +50,21 @@
 
 **注意！下载完 Hiper 本体，请重命名为 `hiper`，接下来的教程程序名都会是他**
 
+给启动器作者小提示：
+
+- 这个是 Hiper 本体的 sha1 列表，可以用于检查更新 Hiper `https://gitcode.net/to/hiper/-/raw/master/packages.sha1`
+
+- https://gitcode.net/to/hiper/-/raw/master/ + <Hiper 本体名称> ，可通过上述列表获取名称，例如 `https://gitcode.net/to/hiper/-/raw/master/hiper-windows-amd64.exe`
+
 *小技巧：打开 Hiper 所在目录，并在文件资源管理器的导航栏中点击一下空白处显示输入框，然后输入 `cmd` 并回车，即可在 Hiper 所在目录打开 CMD。*
 
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/12.gif)
 
 ## Hiper 功能介绍
 
-Hiper 一共分为两大功能：
+Hiper 一共分为两大功能：Vlan 功能和 Chat 功能
 
-Vlan 功能和 Chat 功能
-
-可用命令：
+对 Hiper 程序的可用命令：
    
    chat 通过覆盖网络聊天
    
@@ -74,15 +74,17 @@ Vlan 功能和 Chat 功能
    
    help 关于任何命令的帮助（本文不做赘述）
 
+如：`hiper chat`
+
 ### Vlan 功能介绍
 
 Vlan 功能可以加入建立在覆盖网络上的虚拟专用网络，**该功能直白的说是通过将计算机的网络通过虚拟网卡加入至 Hiper 网络中，使其加入 Hiper 的其他用户可通过 Hiper 分配的 IP 互相访问计算机网络。**此功能可以用在游戏联机（Minecraft）、分享文件甚至是你计算机下的创建的网站。
 
-[使用 Hiper Vlan 功能与好友进行 Minecraft 联机](/playminecraft.md)
+[**使用 Hiper Vlan 功能与好友进行 Minecraft 联机（新手教程）**](/playminecraft.md)
 
 ### Vlan 使用
 
-输入命令使用 Vlan 功能：
+输入命令使用 Vlan 功能（使用任意一个即可）：
 
 ```
 hiper v
@@ -92,11 +94,14 @@ hiper lan
 hiper vlan
 ```
 
+//此图需要更新，请不要看此图
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/13.png)
 
 你可以在上述命令添加额外参数，如：
 
 ```
+hiper vlan -h
+hiper lan -h
 hiper v -h
 ```
 
@@ -113,7 +118,7 @@ hiper v -h
       
       --ice 字符串 逗号分隔的 STUN 服务器和中继服务器列表（默认 [stun:stun.the.bb:3478,stun:stun.l.google.com:19302,username:password@turn:120.92.140.174 :3478,wfchat:wfchat@turn:wildfirechat.cn:3478,openrelayproject:openrelayproject@turns:openrelay.metered.ca:443?transport=tcp])
       
-      --ips 字符串 以逗号分隔的 IP 网络列表，用于从 TUN 设备声明 IP 地址并提供给 TUN 设备（在 Windows 平台下，仅支持一个 IPv4 和一个 IPv6 地址；在 macOS 平台下，忽略 IPv4 地址）（默认 [6.0 .0.0/7])
+      --ips 字符串 以逗号分隔的 IP 网络列表，用于从 TUN 设备声明 IP 地址并提供给 TUN 设备（在 Windows 平台下，仅支持一个 IPv4 和一个 IPv6 地址；在 macOS 平台下，忽略 IPv4 地址）（默认 [6.0.0.0/7])
       
       --key string 社区的加密密钥（默认为“null”）
       
@@ -129,24 +134,28 @@ hiper v -h
       
       --timeout duration 等待连接的时间（默认 10 秒）
       
-      -t, --token string 用户认证密钥（通过 https://mcer.cn/shop 或在QQ群（在 # 提示 中有提到）里询问获取 token）
+      -t, --token string 用户认证密钥（通过 https://mcer.cn/shop 或在QQ群（在上方 # 提示 中有提到）里询问获取 token）
 </code></pre>
 </details>
 
 **须知：**
 
-直接使用 Vlan 功能，默认是公共渠道，公共渠道会在运行后 30 分钟断连，
+直接使用 Vlan 功能，默认是公共渠道，公共渠道会在运行后 30 分钟**断连**，
 
-断连后 CMD/终端 中会显示如图信息，此时你可以键入命令重新加入，
+断连后 CMD/终端 中会显示如图信息，此时你可以键入启动命令重新加入网络，
 
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/11.png)
 
-或者使用凭证，使用凭证不会有断连问题，且默认启动的用户也可以访问你
+若使用凭证，使用凭证不会有断连问题，且默认非凭证启动的用户也可以访问你
 
-使用凭证命令：
+使用凭证命令（使用任意一个即可）：
+
 ```
+hiper vlan -t "<凭证>" 
+hiper lan -t "<凭证>" 
 hiper v -t "<凭证>" 
 ```
+
 `<凭证>` 替换成你获取到的凭证密钥即可
 
 凭证可在 [https://mcer.cn/shop](https://mcer.cn/shop) 或 [加入QQ群](#提示) 获取
@@ -154,8 +163,12 @@ hiper v -t "<凭证>"
 **注意！非 Windows 平台需要 Root 权限，及输入以下命令调用 `sudo` 获取权限：**
 
 ```
+sudo hiper vlan
+sudo hiper lan
 sudo hiper v
 ```
+
+**Darwin（Mac OS）注意事项：你还需要下载完Hiper本体的同时，也需要安装虚拟网卡，在终端 App 中输入命令进行安装 `brew install --cask tunnelblick` （注：尚未确定安装方式，你可以帮我们测试下是否可用QWQ）**
 
 ### Chat 功能介绍
 
@@ -163,12 +176,14 @@ sudo hiper v
 
 ### Chat 使用
 
-输入命令使用 Chat 功能
+输入命令使用 Chat 功能（使用任意一个即可）：
+
 ```
 hiper chat --names <名称>
 hiper cht --names <名称>
 hiper c --names <名称>
 ```
+
 其中 `<名称>` 替换成想取的名称即可
 
 当 CMD/终端 出现 `HI <名称>` 时，代表可以正常发送消息了
@@ -179,11 +194,11 @@ hiper c --names <名称>
 
 当其他发送文本内容时，可以看到文本内容了
 
-要是在加入的同时，也有人在使用 Chat，则会显示在使用人的名称。如图：
+要是在加入的同时，也有人在使用 Chat，则会显示在使用人的名称。（同一个信道）如图：
 
 ![](/p/36.png)
 
-*注意，Chat 功能不需要调用虚拟网卡，也不需要管理员权限（sudo），无凭证参数*
+*注意，使用 Chat 功能不需要安装虚拟网卡，也不需要管理员权限（sudo），无凭证参数*
 
 你可以在上述命令基础上添加额外参数，如：
 ```
@@ -228,6 +243,8 @@ hiper c -h
 作者：[梦游泪世](https://mcer.cn/circle-people?id=6)
 
 可在上方链接中找到本程序的更新日志
+
+Github：[https://github.com/944390394/hiperapp](https://github.com/944390394/hiperapp)
 
 [点击此处下载](https://mcer.cn/circle/491.html)
 
