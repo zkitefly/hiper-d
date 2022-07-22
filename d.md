@@ -250,6 +250,7 @@ Github：[https://github.com/944390394/hiperapp](https://github.com/944390394/hi
 
 下载并解压，运行程序，即可看到如下窗口：
 
+//此图需要更新
 ![](https://gitcode.net/chearlai/hiper-j/-/raw/main/p/9.png)
 
 第一次使用需要输入 `1` 回车，安装虚拟网卡
