@@ -2,6 +2,8 @@
 
 支持短链接：[http://8r5.cn/V7ZGd](http://8r5.cn/V7ZGd)
 
+**注意，本文章暂停更新！！！**
+
 ## 小声逼逼
 
 本文章并不是很完美，可能会因为更新换代而更不上更新脚步，所以希望看到这的同学，若发现了问题，欢迎在 Github 上提交 [Issues](https://github.com/zkitefly/hiper-d/issues) 和 [Pull requests](https://github.com/zkitefly/hiper-d/pulls)
